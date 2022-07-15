@@ -23,6 +23,9 @@ body{
     padding: 20px;
     text-align: center;
 }
+.navbar navbar-expand-lg{
+    padding: 30px;
+}
 .map{
     display: flex;
     justify-content: center;
