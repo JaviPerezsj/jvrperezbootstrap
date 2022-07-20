@@ -37,6 +37,14 @@ body{
     text-align: end;
 }
 
+.card {
+    animation: ease-in animacion 2s;
+  }
+  @keyframes animacion {
+    0% {
+      transform: scale(0);
+    }
+}
 @media (max-width: 320px) {
     .cabecera__titulo{
         font-family: 'Kdam Thmor Pro', sans-serif;
